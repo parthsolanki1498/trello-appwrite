@@ -37,8 +37,9 @@ function TodoCard({
                 setImageUrl(url.toString());
             }
         }
+        fetchImage();
     }
-  })
+  }, [todo])
 
   return (
     <div className="bg-white rounded-md space-y-2 drop-shadow-md"
@@ -64,6 +65,7 @@ function TodoCard({
                 height={200}
                 className="w-full object-contain ronded-b-md">
             </Image>
+            
             </div>
         )}
     </div>

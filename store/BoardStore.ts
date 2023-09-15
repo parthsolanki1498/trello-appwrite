@@ -19,7 +19,7 @@ interface BoardStore {
     setNewTaskInput: (input: string) => void;
 
     
-    searchString: string;
+searchString: string;
     setSearchString: (searchString: string) => void;
 
     addTask: (todo: string, columnId: TypedColumn, image?: File | null) => void;
