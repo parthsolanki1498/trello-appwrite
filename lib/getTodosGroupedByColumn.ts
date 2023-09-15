@@ -45,7 +45,7 @@ export const getTodosGroupedByColumn = async () => {
                 todos: [],
             });
         }
-    }
+    } 
 
     // console.log(columns);
 
