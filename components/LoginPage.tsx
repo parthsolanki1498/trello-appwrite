@@ -10,9 +10,9 @@ function LoginPage() {
   const handleLogin = () => {
     // Perform login logic here
     // If login is successful, redirect to the main page
-    // if (/* Successful login condition */) {
+    if (/* Successful login condition */email == 'admin' && password == 'admin') {
       navigate('/main'); // Redirect to the main page
-    // }
+    }
   };
 
   return (

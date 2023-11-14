@@ -26,11 +26,11 @@ export default function App() {
   }
   return (
     // <main>
-      // {/* Header */}
-      // <Header/>
-      // {/* <Board/> */}
-      // <Board/>
-      // {/* <h1>Trello 2.0</h1> */}
+    //   {/* Header */}
+    //   <Header/>
+    //   {/* <Board/> */}
+    //   <Board/>
+    //   {/* <h1>Trello 2.0</h1> */}
     // </main>
     <Router>
       <Routes>

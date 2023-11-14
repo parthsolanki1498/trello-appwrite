@@ -16,7 +16,7 @@ export async function POST(request: Request) {
         messages: [
             {
                 role: "system",
-                content: `When response, welcome the user always as Mr. Parth Solanki and say welcome to the Trello 2! Limit the response to 200 character`,
+                content: `When response, welcome the user always as User and say welcome to the Trello 2! Limit the response to 200 character but give a productive quote at the end`,
             },
             {
                 role: "user",
@@ -27,6 +27,8 @@ export async function POST(request: Request) {
             },
         ]
     });
+
+    console.log(response);
 
     const { choices } = response;
 
