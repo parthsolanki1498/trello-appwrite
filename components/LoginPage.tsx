@@ -25,6 +25,7 @@ function LoginPage() {
               Email:
             </label>
             <input
+              data-testid="emailTest"
               type="email"
               id="email"
               value={email}
@@ -37,6 +38,7 @@ function LoginPage() {
               Password:
             </label>
             <input
+              data-testid="passwordTest"
               type="password"
               id="password"
               value={password}
@@ -45,7 +47,9 @@ function LoginPage() {
             />
           </div>
           <button
+            id="login"
             type="button"
+            data-testid="loginButtonTest"
             onClick={handleLogin}
             className="bg-[#0055D1] text-white rounded-md py-2 px-4 hover:bg-[#0042A6] transition duration-300"
           >

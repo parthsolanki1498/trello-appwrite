@@ -56,13 +56,14 @@ function Header() {
           <form className="flex items-center space-x-5 bg-white rounded-md p-2 shadow-md flex-1 md:flex-initial">
             <MagnifyingGlassIcon className="h-6 w-6 text-gray-400"></MagnifyingGlassIcon>
             <input
+              data-testid="searchTest"
               type="text"
               placeholder="Search"
               value={searchString}
               onChange={(e) => setSearchString(e.target.value)}
               className="flex-1 outline-none p-2"
             />
-            <button type="submit" hidden>
+            <button data-testid="searchButtonTest" type="submit" hidden>
               Search
             </button>
           </form>
